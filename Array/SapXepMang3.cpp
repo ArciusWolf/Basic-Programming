@@ -17,7 +17,7 @@ int main(){
         cout<<"k["<<i<<"]= ";
         cin>>k[i-1];
     }
-    cout<<"So chan co trong mang: ";
+    cout<<"\nSo chan co trong mang: ";
     for (j=0; j<n; j++){
         if (k[j] % 2 == 0){
             cout<<k[j]<<" ";
@@ -34,9 +34,10 @@ int main(){
         }
     }
     
-    cout<<"\nMang cua ban duoc sap xep giam dan nhu sau: \t";
+    cout<<"\nMang cua ban duoc sap xep giam dan nhu sau: ";
+    cout<<"\nk["<<i+1<<"]= ";
     for (i=0; i<n; i++){
-        cout<<k[i]<<"\t";
+        cout<<"\t"<<k[i]<<"\t";
     }
     return 1;
 }
