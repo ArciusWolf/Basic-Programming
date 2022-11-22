@@ -9,13 +9,20 @@ int main(){
     int k[n];
     while (i<n){
         if (n > 100)
-        {
-            cout<<"So luong so can nhap vuot qua 100!";
-            return 1;
-        }
+    {
+        cout<<"So luong so can nhap vuot qua 100!";
+        return 1;
+    }
         i++;
         cout<<"k["<<i<<"]= ";
         cin>>k[i-1];
+    }
+    cout<<"So chan co trong mang: ";
+    for (j=0; j<n; j++){
+        if (k[j] % 2 == 0){
+            cout<<k[j]<<" ";
+            j++;
+        }
     }
     for (i=0; i<n-1; i++){
         for (j=i+1; j<n; j++){
@@ -26,6 +33,7 @@ int main(){
             }
         }
     }
+    
     cout<<"\nMang cua ban duoc sap xep giam dan nhu sau: \t";
     for (i=0; i<n; i++){
         cout<<k[i]<<"\t";
