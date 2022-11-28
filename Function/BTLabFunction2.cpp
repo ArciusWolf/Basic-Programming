@@ -16,7 +16,7 @@ double factorial(int x)
     return x * factorial(x - 1);
 }
 int main(){
-    int a,b,x, GiaiThua = 1;
+    int a,b,x;
     cout<<"Nhap so 1st: ";
     cin>>a;
     cout<<"Nhap so 2nd: ";
