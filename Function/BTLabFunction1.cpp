@@ -5,7 +5,7 @@ int sum(int a, int b){
     return a + b;
 }
 
-int numMinus(int a, int b){
+int Minus(int a, int b){
     return a - b;
 }
 
@@ -25,7 +25,7 @@ int main(){
     cin>>b;
     int Tong = sum (a, b);
     cout<<"Ket qua la: "<<Tong;
-    int Hieu = numMinus (a, b);
+    int Hieu = Minus (a, b);
     cout<<"\nKet qua la: "<<Hieu;
     int Chia = divine (a, b);
     cout<<"\nKet qua la: "<<Chia;
