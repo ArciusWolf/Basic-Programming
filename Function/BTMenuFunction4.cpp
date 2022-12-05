@@ -45,8 +45,9 @@ int main(){
         cin>>luachon;
         switch (luachon){
             case 1: {
+                int a, b,c,d;
                 cout<<"\nChu vi va dien tich hinh thang";
-
+                cin<<a<<b<<c<<d;
                 break;
             }
             case 2: {
@@ -67,5 +68,5 @@ int main(){
             }
         }
     } while (luachon != 7);
-    return 0;
+    return 1;
 }
