@@ -47,7 +47,9 @@ int main(){
             case 1: {
                 int a, b,c,d;
                 cout<<"\nChu vi va dien tich hinh thang";
-                cin<<a<<b<<c<<d;
+                cin>>a>>b>>c>>d;
+                int kq = ChuViHT(a,b,c,d);
+                cout<<"Chu vi hinh thang la: "<<kq;
                 break;
             }
             case 2: {
