@@ -1,1 +1,2 @@
-en 
+
+    while (getline(aha, data)){
