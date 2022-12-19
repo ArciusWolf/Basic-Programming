@@ -33,7 +33,9 @@ int main (){
     for (int i=0; i<2; i++) {    
         cout<<"\n"<<DSnhanvien[i].ma<<"\t"<<"-"<<"\t"<<DSnhanvien[i].hoten<<"\t\t"<<DSnhanvien[i].hesoluong<<"\t"<<DSnhanvien[i].songaycong<<"\t"<<DSnhanvien[i].diachi;
     }
-    cout<<"Nhap ma nhan vien can tim kiem: ";
-    cin<<
+    int i=0;
+    cout<<"\nNhap ma nhan vien can tim kiem: ";
+    cin>>i;
+        cout<<"\n"<<DSnhanvien[i].ma<<"\t"<<"-"<<"\t"<<DSnhanvien[i].hoten<<"\t\t"<<DSnhanvien[i].hesoluong<<"\t"<<DSnhanvien[i].songaycong<<"\t"<<DSnhanvien[i].diachi;
     return 0;
-}
+    }
