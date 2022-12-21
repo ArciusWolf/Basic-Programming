@@ -9,8 +9,8 @@ struct Diem{
 };
 
 int main (){
-    Diem ThiSinh[2];
-    for (int i=0; i<2; i++){
+    Diem ThiSinh[5];
+    for (int i=0; i<5; i++){
         cout<<"\nNhap thong tin cua thi sinh thu "<<i+1<<":";
         cout<<"\nNhap ma so thi sinh: ";
         cin>>ThiSinh[i].MaSo;
@@ -29,7 +29,7 @@ int main (){
     float dtb;
     cout<<"\nNhap ma so thi sinh can tim: ";
     cin>>id;
-    for (int i=0; i<2; i++){
+    for (int i=0; i<5; i++){
         if (ThiSinh[i].MaSo == id){
             search = 1;
             index = i;
@@ -54,8 +54,8 @@ int main (){
     };
 
     Diem temp;
-    for (int i = 0; i<1; i++){
-        for (int j=i; j<2; j++){
+    for (int i = 0; i<4; i++){
+        for (int j=i; j<5; j++){
             if (ThiSinh[j].dtb > ThiSinh[i].dtb){
                 temp = ThiSinh[j];
                 ThiSinh[j] = ThiSinh[i];
@@ -63,7 +63,7 @@ int main (){
             }
         }
         cout<<"\n- Danh sach thi sinh diem tang dan la: ";
-        for (int i=0; i<2; i++){
+        for (int i=0; i<5; i++){
             cout<<"\n"<<ThiSinh[i].HoTen;
         }
     }
